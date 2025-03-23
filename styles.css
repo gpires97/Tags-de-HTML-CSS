@@ -1,29 +1,31 @@
 /* Define um fundo para toda a página */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    color: wh;
+    font-family: Arial, sans-serif; /* Define a fonte da página */
+    margin: 20px; /* Adiciona uma margem de 20px ao redor da página */
+    padding: 20px; /* Adiciona um preenchimento de 20px ao redor do conteúdo da página */
+    color: wh; /* Define a cor do texto como branco (isso pode ser um erro de digitação, o correto seria 'white') */
     background-image: url('background.jpg'); /* Define uma imagem de fundo */
     background-size: cover; /* Faz a imagem cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
+    background-position: center; /* Centraliza a imagem de fundo */
 }
 
 /* Estiliza o título com imagem */
 .titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    color: white;
+    display: flex; /* Usa o modelo de layout flexível */
+    align-items: center; /* Alinha os itens (como a imagem e o texto) verticalmente ao centro */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    font-size: 24px; /* Define o tamanho da fonte */
+    color: white; /* Define a cor do texto como branco */
 }
 
 /* Ajusta a imagem do título */
 .logo {
-    width: 50px; /* Define o tamanho da imagem */
-    height: auto;
-    margin-right: 10px;
+    width: 50px; /* Define o tamanho da imagem para 50px de largura */
+    height: auto; /* Ajusta automaticamente a altura da imagem, mantendo a proporção */
+    margin-right: 10px; /* Adiciona uma margem à direita da imagem */
 }
+
+/* Estiliza a imagem */
 .imagem {
     display: block; /* Faz com que a imagem ocupe um bloco próprio */
     margin: 20px auto; /* Centraliza a imagem horizontalmente e adiciona espaço em cima e embaixo */
@@ -32,24 +34,25 @@ body {
     border-radius: 8px; /* Arredonda as bordas da imagem */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave ao redor da imagem */
 }
+
 /* Estiliza tabelas */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #fff;
+    width: 100%; /* Define a largura da tabela como 100% */
+    border-collapse: collapse; /* Remove espaços entre as bordas das células */
+    background-color: #fff; /* Define a cor de fundo da tabela como branca */
 }
 
 /* Estiliza cabeçalho da tabela */
 th {
-    background-color: #444;
-    color: white;
-    padding: 10px;
+    background-color: #444; /* Define a cor de fundo das células do cabeçalho como cinza escuro */
+    color: white; /* Define a cor do texto nas células do cabeçalho como branca */
+    padding: 10px; /* Adiciona preenchimento de 10px nas células do cabeçalho */
 }
 
 /* Estiliza células da tabela */
 td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 1px solid #ddd; /* Adiciona uma borda de 1px de cor cinza claro nas células */
+    padding: 8px; /* Adiciona preenchimento de 8px nas células */
 }
 
 /* Estiliza a lista não ordenada (ul) */
@@ -87,24 +90,26 @@ ol li {
 
 /* Estiliza formulários */
 form {
-    background-color: #eee;
-    padding: 20px;
-    border-radius: 5px;
-    width: 300px;
+    background-color: #eee; /* Define a cor de fundo do formulário como cinza claro */
+    padding: 20px; /* Adiciona preenchimento de 20px ao redor do conteúdo do formulário */
+    border-radius: 5px; /* Arredonda as bordas do formulário */
+    width: 300px; /* Define a largura do formulário como 300px */
 }
 
+/* Estiliza campos de entrada e botões dentro do formulário */
 input, button {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
+    display: block; /* Faz os elementos de entrada e botão ocuparem blocos próprios */
+    width: 100%; /* Define a largura como 100% do contêiner */
+    margin: 10px 0; /* Adiciona margens superior e inferior de 10px */
+    padding: 10px; /* Adiciona preenchimento de 10px dentro dos elementos */
 }
 
 /* Estiliza o destaque com span */
 span {
-    font-weight: bold;
-    color: red;
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: red; /* Define a cor do texto como vermelha */
 }
+
 /* Estiliza todas as seções */
 section {
     margin: 40px 0; /* Adiciona espaço acima e abaixo das seções */
