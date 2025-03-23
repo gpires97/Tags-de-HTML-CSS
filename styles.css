@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif; /* Define a fonte da página */
     margin: 20px; /* Adiciona uma margem de 20px ao redor da página */
     padding: 20px; /* Adiciona um preenchimento de 20px ao redor do conteúdo da página */
-    color: wh; /* Define a cor do texto como branco (isso pode ser um erro de digitação, o correto seria 'white') */
+    color: white; /* Define a cor do texto como branco  */
     background-image: url('background.jpg'); /* Define uma imagem de fundo */
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Centraliza a imagem de fundo */
