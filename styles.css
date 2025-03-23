@@ -1,0 +1,179 @@
+/* Define um fundo para toda a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    color: wh;
+    background-image: url('background.jpg'); /* Define uma imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+}
+
+/* Estiliza o título com imagem */
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+/* Ajusta a imagem do título */
+.logo {
+    width: 50px; /* Define o tamanho da imagem */
+    height: auto;
+    margin-right: 10px;
+}
+.imagem {
+    display: block; /* Faz com que a imagem ocupe um bloco próprio */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente e adiciona espaço em cima e embaixo */
+    width: 80%; /* Define a largura da imagem como 80% da largura do contêiner */
+    max-width: 600px; /* Limita a largura máxima da imagem a 600px */
+    border-radius: 8px; /* Arredonda as bordas da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave ao redor da imagem */
+}
+/* Estiliza tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+/* Estiliza cabeçalho da tabela */
+th {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+
+/* Estiliza células da tabela */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Estiliza a lista não ordenada (ul) */
+ul {
+    list-style-type: square; /* Define o estilo dos marcadores como quadrado */
+    margin-left: 20px; /* Adiciona margem à esquerda da lista */
+    padding-left: 10px; /* Adiciona um pouco de espaçamento interno à esquerda da lista */
+}
+
+/* Estiliza os itens da lista não ordenada (li) */
+ul li {
+    margin-bottom: 10px; /* Adiciona espaço entre os itens da lista */
+    font-size: 18px; /* Define o tamanho da fonte */
+}
+
+/* Estiliza a lista ordenada (ol) */
+ol {
+    list-style-type: decimal; /* Define o estilo dos marcadores como números */
+    margin-left: 20px; /* Adiciona margem à esquerda da lista */
+    padding-left: 10px; /* Adiciona um pouco de espaçamento interno à esquerda da lista */
+}
+
+/* Estiliza os itens da lista ordenada (li) */
+ol li {
+    margin-bottom: 10px; /* Adiciona espaço entre os itens da lista */
+    font-size: 18px; /* Define o tamanho da fonte */
+}
+
+/* Estiliza o título das listas */
+#listas h2 {
+    font-size: 24px; /* Define o tamanho da fonte do título */
+    margin-bottom: 15px; /* Adiciona espaço abaixo do título */
+    color: #333; /* Define a cor do texto como cinza escuro */
+}
+
+/* Estiliza formulários */
+form {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* Estiliza o destaque com span */
+span {
+    font-weight: bold;
+    color: red;
+}
+/* Estiliza todas as seções */
+section {
+    margin: 40px 0; /* Adiciona espaço acima e abaixo das seções */
+    padding: 20px; /* Adiciona preenchimento interno dentro das seções */
+    background-color: #f9f9f9; /* Define a cor de fundo das seções */
+    border-radius: 8px; /* Arredonda os cantos das seções */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao redor das seções */
+}
+
+/* Estiliza o título de cada seção */
+section h2 {
+    font-size: 24px; /* Define o tamanho da fonte para o título */
+    color: #444; /* Cor do título */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+/* Seção com uma borda entre as seções */
+section:not(:last-child) {
+    border-bottom: 2px solid #ddd; /* Adiciona uma linha de separação entre as seções */
+}
+
+/* Estiliza o fundo e margens das seções específicas, se necessário */
+#introducao, #conteudo, #listas, #tabela, #formulario, #span-exemplo {
+    background-color: #ffffff; /* Fundo branco para seções específicas */
+}
+
+/* Estiliza o cabeçalho (header) */
+header {
+    background-color: #333; /* Cor de fundo escura */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 20px; /* Adiciona preenchimento interno */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor */
+}
+
+/* Estiliza o conteúdo principal (main) */
+main {
+    padding: 20px; /* Preenchimento interno */
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    margin-top: 20px; /* Espaço acima do conteúdo principal */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor */
+}
+
+/* Estiliza o rodapé (footer) */
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Preenchimento interno */
+    margin-top: 20px; /* Espaço acima do rodapé */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor */
+}
+
+/* Adiciona um pouco de espaçamento entre o conteúdo do header, main e footer */
+header, main, footer {
+    margin-bottom: 20px; /* Espaço inferior entre as seções */
+}
+
+/* Estiliza o texto no header */
+header h1 {
+    font-size: 32px; /* Tamanho da fonte do título */
+    margin: 0; /* Remove margem */
+}
+
+/* Estiliza o texto no footer */
+footer p {
+    font-size: 14px; /* Tamanho da fonte do texto */
+    margin: 0; /* Remove margem */
+}

@@ -1,0 +1,111 @@
+<!-- Define o tipo de documento como HTML5 -->
+<!DOCTYPE html>
+
+<!-- Início do documento HTML e definição do idioma -->
+<html lang="pt-BR">
+<head>
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta charset="UTF-8">
+    
+    <!-- Configuração para tornar a página responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página que aparece na aba do navegador -->
+    <title>Página Básica</title>
+    
+    <!-- Importa o arquivo CSS para estilização -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Título principal da página com imagem -->
+        <h1 class="titulo">
+            <img src="logo.png" alt="Logo da Página" class="logo"> Bem-vindo à minha página
+        </h1>
+    </header>
+    
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção de introdução -->
+        <section id="introducao">
+            <!-- Parágrafo de introdução -->
+            <p class="texto">Este é um exemplo básico de uma página HTML com estilização.</p>
+            
+            <!-- Imagem ilustrativa -->
+            <img src="imagem.jpg" alt="Imagem Exemplo" class="imagem">
+        </section>
+        
+        <!-- Seção de conteúdo adicional -->
+        <section id="conteudo">
+            <!-- Div para agrupar conteúdo -->
+            <div class="caixa">
+                <p>Conteúdo dentro de uma div estilizada.</p>
+            </div>
+        </section>
+
+        <!-- Seção de lista -->
+        <section id="listas">
+            <h2>Listas</h2>
+            <!-- Lista não ordenada -->
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            
+            <!-- Lista ordenada -->
+            <ol>
+                <li>Primeiro</li>
+                <li>Segundo</li>
+                <li>Terceiro</li>
+            </ol>
+        </section>
+
+        <!-- Seção de tabela -->
+        <section id="tabela">
+            <h2>Tabela de Exemplo</h2>
+            <table >
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>30</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Seção de formulário -->
+        <section id="formulario">
+            <h2>Formulário de Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Seção com uso de span -->
+        <section id="span-exemplo">
+            <h2>Uso de Span</h2>
+            <p>Esta é uma frase com uma <span style="color: red;">palavra destacada</span>.</p>
+        </section>
+    </main>
+    
+    <!-- Rodapé da página -->
+    <footer>
+        <!-- Texto de direitos autorais -->
+        <p>&copy; 2025 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
